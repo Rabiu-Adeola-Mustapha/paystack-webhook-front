@@ -14,7 +14,7 @@ const App = () => {
       <div>
         <ToastContainer /> {/* Place it here */}
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route
             path="/make-payment"
